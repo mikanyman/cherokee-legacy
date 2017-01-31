@@ -1,0 +1,51 @@
+{$context->oPage->requireJSResource('thirdpartyjs/MochiKit/Base.js')}
+{$context->oPage->requireJSResource('thirdpartyjs/MochiKit/Iter.js')}
+{$context->oPage->requireJSResource('thirdpartyjs/MochiKit/DOM.js')}
+
+{$context->oPage->requireJSResource('resources/js/toggleselect.js')}
+
+<h2>{i18n}Deleted Documents{/i18n}</h2>
+
+<p class="descriptiveText">{i18n}Documents which are deleted by users are hidden from view 
+but still available for restoration.  Since "soft deletes" consume system resources, it
+is possible to <strong>expunge</strong> these documents.  Alternatively, you
+can <strong>restore</strong> them as necessary.{/i18n}</p>
+
+
+{if (!empty($documents))}
+
+<form action="{$smarty.server.PHP_SELF}" method="POST">
+
+<input type="hidden" name="action" value="branchConfirm" />
+
+<table class="kt_collection">
+  <thead>
+    <tr>
+      <th style="width:2em"><input type="checkbox" onclick="toggleSelectFor(this, 'selected_docs')" title="toggle all"/></th>
+      <th>{i18n}Document Name{/i18n}</th>
+{*      <th>{i18n}Document Path{/i18n}</th> *}
+      <th>{i18n}Last Modification{/i18n}</th>
+      <th>{i18n}Deletion Comment{/i18n}</th>
+    </tr>
+  </thead>  
+  <tbody>
+    {foreach item=oDoc from=$documents}
+    <tr>
+      <td><input type="checkbox" name="selected_docs[]" value="{$oDoc->getId()}"/></td>
+      <td>{$oDoc->getName()}</td>
+{*      <td>{getCrumbStringForDocument document=$oDoc}</td> *}
+      <td>{$oDoc->getLastModifiedDate()}</td>
+      <td>{$oDoc->getLastDeletionComment()}</td>
+    </tr>
+    {/foreach}
+  </tbody>
+</table>
+<div class="form_actions">
+   <input type="submit" name="submit[expunge]" value="{i18n}Expunge{/i18n}" />
+   <input type="submit" name="submit[restore]" value="{i18n}Restore{/i18n}" />
+</div>
+</form>
+
+{else}
+<div class="ktInfo"><p>{i18n}No documents are marked as deleted.{/i18n}</p></div>
+{/if}

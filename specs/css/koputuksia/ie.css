@@ -1,0 +1,25 @@
+/*
+Title:      Specific fixes for IE5 only 
+Author:     dan@simplebits.com
+Updated:    August 18 2005
+*/
+
+body {
+	font-size: x-small; /* IE5 Win */
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	font-size: small;
+	}
+html>body { /* be nice to Opera */
+	font-size: small;
+	}
+
+dl.teaser, .teaser-row, #photoGrid, dl.book, .prod-feature { display: inline-table; } /* for IE/Mac */
+/* Hides from IE/Mac \*/
+* html dl.teaser, * html .teaser-row, * html #photoGrid, * html dl.book, * html .prod-feature { height: 1%; }
+dl.teaser, .teaser-row, #photoGrid, dl.book, .prod-feature { display: block; }
+/* End hide from IE/Mac */
+
+/* Fixes float escaping bug in IE/Win, hides from IE Mac \*/
+* html #footer p { height: 1%; }
+/* End hide from IE Mac */

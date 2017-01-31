@@ -1,0 +1,67 @@
+8
+
+dir
+10886
+file:///var/svn/specs/js/tiny_mce/themes/advanced/skins/default
+file:///var/svn/specs
+
+
+
+2008-11-17T20:46:13.345601Z
+8566
+root
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9c8e852e-eeee-49bd-92f0-d9f59afcdca8
+
+content.css
+file
+
+
+
+
+2008-10-28T01:31:09.000000Z
+fb2bb5e8f61d4d67b616e6311d22c7fb
+2008-10-28T01:30:39.414148Z
+8194
+root
+
+ui.css
+file
+
+
+
+
+2008-11-17T20:46:22.000000Z
+9a2947c679d9bc94eee77c38874527ce
+2008-11-17T20:46:13.345601Z
+8566
+root
+
+dialog.css
+file
+
+
+
+
+2008-11-17T20:46:22.000000Z
+fc4041c075fb5d93d20db3251d4bba04
+2008-11-17T20:46:13.345601Z
+8566
+root
+
+img
+dir
+

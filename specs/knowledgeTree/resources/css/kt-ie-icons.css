@@ -1,0 +1,120 @@
+.ktInfo p { background: transparent  url(../../thirdparty/icon-theme/16x16/status/dialog-information.gif) center left no-repeat; }
+.ktError p {     background: transparent  url(../../thirdparty/icon-theme/16x16/status/dialog-warning.gif) center left no-repeat; }
+.ktHelp { background: transparent url(../../thirdparty/icon-theme/16x16/apps/help-browser.gif) top left no-repeat; }
+
+.ktActionLink.ktDelete, .ktAction.ktDelete { background-image: url(../../resources/graphics/delete.gif); }
+.ktActionLink.ktEdit, .ktAction.ktEdit { background-image: url(../../thirdparty/icon-theme/16x16/actions/document-properties.gif); }
+.ktActionLink.ktAddUser, .ktAction.ktAddUser { background-image: url(../../thirdparty/icon-theme/16x16/actions/contact-new.gif); }
+.ktActionLink.ktAddGroup, .ktAction.ktAddGroup { background-image: url(../../thirdparty/icon-theme/16x16/actions/group-new.gif); }
+.ktActionLink.ktAdd, .ktAction.ktAdd { background-image: url(../../thirdparty/icon-theme/16x16/actions/add.gif); }
+.ktActionLink.ktDownload, .ktAction.ktDownload { background-image: url(../../resources/graphics/download.gif); }
+.ktActionLink.ktBack, .ktAction.ktBack { background-image: url(../../thirdparty/icon-theme/16x16/actions/back.gif); }
+.ktActionLink.ktAllowed, .ktAction.ktAllowed { background-image: url(../../resources/graphics/allowed.gif); }
+.ktActionLink.ktDenied, .ktAction.ktDenied { background-image: url(../../resources/graphics/denied.gif); }
+.ktActionLink.ktMoveUp, .ktAction.ktMoveUp { background-image: url(../../thirdparty/icon-theme/16x16/actions/move-up.gif); }
+.ktActionLink.ktMoveDown, .ktAction.ktMoveDown { background-image: url(../../thirdparty/icon-theme/16x16/actions/move-down.gif); }
+
+.contenttype.office { background-image: url(../../resources/mimetypes/office.gif); }
+.contenttype.word { background-image: url(../../resources/mimetypes/word.gif); }
+.contenttype.database { background-image: url(../../resources/mimetypes/database.gif); }
+.contenttype.excel { background-image: url(../../resources/mimetypes/excel.gif); }
+.contenttype.openoffice { background-image: url(../../resources/mimetypes/openoffice.gif); }
+.contenttype.pdf { background-image: url(../../resources/mimetypes/pdf.gif); }
+.contenttype.image { background-image: url(../../resources/mimetypes/image.gif); }
+.contenttype.compressed { background-image: url(../../resources/mimetypes/zip.gif); }
+.contenttype.html { background-image: url(../../resources/mimetypes/html.gif); }
+
+.contenttype.txt,
+.contenttype.text,
+.contenttype.unspecified_type { background-image: url(../../thirdparty/icon-theme/16x16/mimetypes/text-x-generic.gif); }
+.contenttype.folder { background-image: url(../../thirdparty/icon-theme/16x16/mimetypes/x-directory-normal.gif); }
+
+/* IE is woefully unable to */
+#portletbar { width: 200px; }
+#portlet-search-text { width: 150px; }
+/* #content { padding-left: 220px; } */
+
+#content { 
+    float: left;
+    padding: 0 25px 0 0;    
+}
+
+#pageBody {
+    height: 800px;
+}
+
+/* IE does not know what 100% is!! */
+#copyrightbarBg {
+    width: 101%;
+}
+
+.floatClear
+{
+    height: 1px !important;
+    margin: 0; border: 0; padding: 0;
+    width: 1px;
+}
+
+#portletbar .portlet {
+    background: url(../../resources/graphics/portlet_corner_topleft_collapsed.gif) top left no-repeat;
+}
+
+#portletbar .portlet.expanded {
+    background: url(../../resources/graphics/portlet_corner_topleft.gif) top left no-repeat;
+}
+
+#portletbar .portlet .portletTopRight {
+    background: url(../../resources/graphics/portlet_corner_topright_collapsed.gif) top right no-repeat;
+}
+
+#portletbar .portlet.expanded .portletTopRight {
+    background: url(../../resources/graphics/portlet_corner_topright.gif) top right no-repeat;
+}
+
+#portletbar .portlet .portletbodyBottomLeft {
+    background: url(../../resources/graphics/portlet_corner_bottomleft.gif) bottom left no-repeat;
+}
+
+#portletbar .portlet .portletbodyBottomRight {
+    background: url(../../resources/graphics/portlet_corner_bottomright.gif) bottom right no-repeat;
+}
+
+#portletbar .portlet .portletTopRepeat {
+    background: url(../../resources/graphics/portlet_bg_collapsed.gif) top left repeat-x;
+    width: 65%;
+}
+
+#portletbar .portlet.expanded .portletTopRepeat {
+    background: url(../../resources/graphics/portlet_bg.gif) top left repeat-x;
+    width: 65%;
+}
+
+#menu_divider {
+    background: url(../../resources/graphics/menu_divider.gif) top left no-repeat;
+}
+
+
+/* NO CHILD SELECTORS IN IE! */
+
+.kt_treenodes li.treenode a.pathnode
+{ 
+  padding-left: 15px;
+}
+
+.kt_treenodes li.treenode.active a.pathnode {
+   background: transparent url(../graphics/minus.png) center left no-repeat;
+                                              
+}
+
+.kt_treenodes li.treenode.inactive a.pathnode {
+   background: transparent url(../graphics/plus.png) center left no-repeat;
+}
+
+
+.kt_treenodes li.active ul {
+    display: block;
+}
+
+.kt_treenodes li.inactive ul {
+    display: none;
+}

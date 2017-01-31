@@ -1,0 +1,31 @@
+/* 
+    Getting Mime-type CSS right is a bit tricky here.
+    the idea is that you apply these to a span, as follows:
+    
+    <span class="contenttype presentation">My Filename</span>
+*/
+.contenttype {
+    background-position: 0% 0.5em;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0;
+    margin-right: 25px;
+}
+
+.contenttype.office { background-image: url(../../resources/mimetypes/office.png); }
+.contenttype.word { background-image: url(../../resources/mimetypes/word.png); }
+.contenttype.database { background-image: url(../../resources/mimetypes/database.png); }
+.contenttype.excel { background-image: url(../../resources/mimetypes/excel.png); }
+.contenttype.openoffice { background-image: url(../../resources/mimetypes/openoffice.png); }
+.contenttype.opendocument { background-image: url(../../resources/mimetypes/openoffice.png); }
+.contenttype.pdf { background-image: url(../../resources/mimetypes/pdf.png); }
+.contenttype.image { background-image: url(../../resources/mimetypes/image.png); }
+.contenttype.compressed { background-image: url(../../resources/mimetypes/zip.png); }
+.contenttype.html { background-image: url(../../resources/mimetypes/html.png); }
+
+.contenttype.txt,
+.contenttype.text,
+.contenttype.unspecified_type { background-image: url(../../thirdparty/icon-theme/16x16/mimetypes/text-x-generic.png); }
+.contenttype.folder { background-image: url(../../thirdparty/icon-theme/16x16/mimetypes/x-directory-normal.png); }

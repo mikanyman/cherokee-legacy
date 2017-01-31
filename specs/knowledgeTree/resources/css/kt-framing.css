@@ -1,0 +1,1840 @@
+/* ------------------ generic ------------------ */
+
+html { 
+    height: 100%;
+}
+
+body
+{
+    padding: 1em ; border: 0; margin: 0;
+    font-size: smaller; 
+    font-family: sans-serif;
+}
+
+.floatClear
+{
+    clear: both;
+    height: 1px !important;
+    margin: 0; border: 0; padding: 0;
+    width: 1px;
+}
+
+#kt-wrapper
+{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.copyright {
+    margin-top: 1em;
+    color: #888;
+    font-size: smaller;
+    border-top: 1px solid #ccc;
+}
+
+#pageBody {
+    position: relative;
+    border: 1px solid white;
+    min-height: 800px;
+    height: auto;
+}
+
+#pageBodyBg {
+    position: absolute;
+    background: url(../../resources/graphics/page_bg.png) bottom left repeat-x;
+    width: 99.2%;
+    height: 611px;
+    bottom: 0px;
+    left: 3px;
+}
+
+#bodyTopLeft {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_topleft.gif) top left no-repeat;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+
+#bodyTopRepeat {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_toprepeat.gif) top left repeat-x;
+    width:95%;
+    height: 20px;
+    top: 0px;
+    left: 40px;
+}
+
+#bodyLeftRepeatTop {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_leftrepeat.gif) top left repeat-y;
+    width: 3px;
+    height: 560px;
+    top: 40px;
+    left: 0px;
+}
+
+#bodyLeftRepeatQuartTop {
+    position: absolute;                                                
+    background: url(../../resources/graphics/page_border_leftrepeat.gif) top left repeat-y;
+    top: 15%;
+    left: 0px;
+    width: 3px;
+    height: 300px;
+}
+
+#bodyLeftRepeatMiddleTop {
+    position: absolute;                                                
+    background: url(../../resources/graphics/page_border_leftrepeat.gif) top left repeat-y;
+    top: 50%;
+    left: 0px;
+    width: 3px;
+    height: 300px;
+}
+
+#bodyLeftRepeatMiddleBottom {
+    position: absolute;                                                
+    background: url(../../resources/graphics/page_border_leftrepeat.gif) top left repeat-y;
+    bottom: 50%;
+    left: 0px;
+    width: 3px;
+    height: 300px;
+}
+
+#bodyLeftRepeatQuartBottom {
+    position: absolute;                                                
+    background: url(../../resources/graphics/page_border_leftrepeat.gif) top left repeat-y;
+    bottom: 25%;
+    left: 0px;
+    width: 3px;
+    height: 300px;
+}
+
+#bodyLeftRepeatBottom {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_leftrepeat.gif) top left repeat-y;
+    width: 3px;
+    height: 600px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#bodyRightRepeatTop {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_rightrepeat.gif) top right repeat-y;
+    width: 8px;
+    height:585px;
+    top: 15px;
+    right: 0px;
+}
+
+#bodyRightRepeatQuartTop {
+    position: absolute;                                                
+    background: url(../../resources/graphics/page_border_rightrepeat.gif) top right repeat-y;
+    top: 15%;
+    right: 0px;
+    width: 8px;
+    height: 300px;
+}
+
+#bodyRightRepeatMiddleTop {
+    position: absolute;                                                
+    background: url(../../resources/graphics/page_border_rightrepeat.gif) top right repeat-y;
+    top: 50%;
+    right: 0px;
+    width: 8px;
+    height: 300px;
+}
+
+#bodyRightRepeatMiddleBottom {
+    position: absolute;                                                
+    background: url(../../resources/graphics/page_border_rightrepeat.gif) top right repeat-y;
+    bottom: 50%;
+    right: 0px;
+    width: 8px;
+    height: 300px;
+}
+
+#bodyRightRepeatQuartBottom {
+    position: absolute;                                                
+    background: url(../../resources/graphics/page_border_rightrepeat.gif) top right repeat-y;
+    bottom: 25%;
+    right: 0px;
+    width: 8px;
+    height: 300px;
+}
+
+#bodyRightRepeatBottom {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_rightrepeat.gif) top right repeat-y;
+    width: 8px;
+    height:600px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#bodyTopRight {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_topright.gif) top right no-repeat;
+    top:0px;
+    right:0px;
+    width: 50px;
+    height:100%;
+}
+
+#bodyPad {
+   margin-top:15px;
+   margin-left:15px;
+   margin-right:15px;
+}
+
+#bodyBottomRepeat {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_bottomrepeat.gif) bottom left repeat-x;
+    width:99%;
+    height: 20px;
+    bottom: 0px;
+    left: 10px;
+}
+
+#bodyBottomLeft {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_bottomleft.gif) bottom left no-repeat;
+    width:100px;
+    height:100px;
+    bottom:0;
+    left:0;
+}
+
+#bodyBottomRight {
+    position: absolute;
+    background: url(../../resources/graphics/page_border_bottomright.gif) bottom right no-repeat;
+    width:100px;
+    height:100px;
+    bottom:0;
+    right:0;
+}
+
+/* ------------------ logobar ------------------ */
+
+#logobar
+{
+    position: relative;
+    width: 100%;
+    margin: 0.5em 0 0.5em 0;
+}
+
+#logobar .secondary
+{
+    float: right;
+    border: 0;
+}
+
+#logobar .primary
+{
+    float: left;
+    border: 0;
+}
+
+/* ------------------ navbar ------------------- */
+
+#navbarBorder {
+    position: relative;
+    height: 2.36em;
+    width: 99%;
+}
+
+#navbarLeft {
+    position: absolute;
+    background: url(../../resources/graphics/menu_corner_left.png) top left no-repeat;
+    width:8px;
+    height:2.36em;
+    top:0px;
+    left:0px;
+}
+
+#navbarRight {
+    position: absolute;
+    background: url(../../resources/graphics/menu_corner_right.png) top right no-repeat;
+    width:8px;
+    height:2.36em;
+    top:0px;
+    right:0px;
+}
+
+#navbar
+{
+    position: relative;
+    width: auto;
+    background: url(../../resources/graphics/menubg.png) top left repeat-x;
+    padding: 0em 1em;
+    margin-bottom: 1em;
+    height: 2.36em;
+    overflow: hidden;
+    top:0px;
+}
+
+#navbar ul
+{
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#navbar ul li
+{
+    padding: 0.5em 0.75em;
+    display: block;
+    float: left;
+    color: white;
+}
+
+#navbar ul li.pref
+{
+    float: right;
+}
+
+#navbar ul li.active {
+    background: #6c8c2f url(../../resources/graphics/menubg-active.png) top left repeat-x;
+    height: 1.4em;
+}
+
+#navbar ul li a 
+{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px transparent;
+}
+
+#navbar ul li a:hover 
+{
+    border-bottom: 1px solid white;
+}
+
+#menu_divider {
+    background: url(../../resources/graphics/menu_divider.png) top left no-repeat;
+    width: 2px;
+    height: 31px;
+}
+
+.ktLoggedInUser {
+    font-weight: bold;
+}
+
+/*
+a.main_nav_item {
+    background: transparent url(../../resources/graphics/home-navbar.gif) center left no-repeat;
+    padding-left: 1.5em;
+}
+*/
+#navbar ul li.active a:hover:visited,
+#navbar ul li.active a:visited,
+#navbar ul li.active a:hover,
+#navbar ul li.active a
+{
+    font-weight: bold;
+
+}
+
+/* ------------------ breadcrumbs -------------- */
+
+#breadcrumbs 
+{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    color: #333;
+    text-transform: lowercase;
+}
+
+#breadcrumbs .primary 
+{
+    font-weight: bold;
+}
+
+#breadcrumbs .additional
+{
+    color: #888;
+}
+
+#breadcrumbs a
+{
+    color: #344a6a;
+    text-decoration: none;
+    border-bottom: 1px solid #344a6a;
+
+}
+
+#breadcrumbs a:visited:hover,
+#breadcrumbs a:hover
+{
+    color: #9d0a0a;
+    text-decoration: none;
+    border-bottom: 1px solid #9d0a0a;
+}
+
+#breadcrumbs a:visited 
+{
+    color: #6b0763;
+    text-decoration: none;
+    border-bottom: 1px solid #6b0763;
+}
+    
+/* ------------------ portlets ----------------- */
+
+#portletbar
+{
+    float: left;
+    width: 16em;
+    left: 1em;
+    background: transparent;
+    margin: 0 10px 0 0 ;
+    padding: 0;
+    z-index: 2;  /*  IE layers this below the content bar. */
+}
+
+/* horrible, custom dashboard hack. */
+.noportlets #portletbar { display: none; }
+
+#portletbar .portlet {
+    position: relative;
+    margin: 0 0 1.5em 0;
+    background: url(../../resources/graphics/portlet_corner_topleft_collapsed.png) top left no-repeat;
+    padding: 0 0 0 0;
+    border: 0;
+    z-index: 2;
+}
+
+#portletbar .portlet .portletTopRepeat {
+    position: absolute;
+    background: url(../../resources/graphics/portlet_bg_collapsed.png) top left repeat-x;
+    top: 0;
+    left: 30px;
+    height: 30px;
+    width: 67%;
+    z-index: -1;  
+    border:0;
+}
+
+#portletbar .portlet .portletTopRight {
+    position: absolute;
+    background: url(../../resources/graphics/portlet_corner_topright_collapsed.png) top right no-repeat;
+    top: 0;
+    right: 0px;
+    height: 30px;
+    width: 60%;
+    z-index: -1; 
+    border: 0;
+}
+
+#portletbar .portlet.expanded {
+    position: relative;
+    margin: 0 0 1.5em 0;       
+    padding: 0 0 0 0;
+    background: url(../../resources/graphics/portlet_corner_topleft.png) top left no-repeat;
+    border: 0;
+    z-index: 2;
+}
+
+#portletbar .portlet.expanded .portletTopRepeat {
+    position: absolute;
+    background: url(../../resources/graphics/portlet_bg.png) top left repeat-x;
+    top: 0px;
+    left: 30px;
+    height: 28px;
+    width: 67%;
+    z-index: -1;  
+    border: 0;
+}
+
+#portletbar .portlet.expanded .portletTopRight {
+    position: absolute;
+    background: url(../../resources/graphics/portlet_corner_topright.png) top right no-repeat;
+    top: 0;
+    right: 0px;
+    height: 28px;
+    width: 60%;
+    z-index: -1; 
+    border: 0;
+}
+
+#portletbar .portlet .portletbody {
+    /* This is for the left-hand side border */
+    /*background: url(../../resources/graphics/portlet_borderrepeat.png) top left repeat-y;*/
+    background: url(../../resources/graphics/portlet_borderright.png) top right repeat-y;
+    padding: 0 0 1em 0;
+    margin-right: 1px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 99%;
+    height: 100%;                             
+}
+
+/* Attempt to contain side portlet containers in MORE containers*/
+/*
+#portletbar .portlet.expanded .portletBodyDoubleTop {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    top:0px;
+    right:0px;
+    border: 1px solid red;
+}
+
+#portletbar .portlet.expanded .portletBodyDoubleMiddle {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    top:0px;
+    right:0px;
+    border: 1px solid blue;
+}
+
+#portletbar .portlet.expanded .portletBodyDoubleBottom {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    bottom:0px;
+    right:0px;
+    border: 1px solid red;
+}*/
+
+/* Bottom Portlet borders */
+/*
+#portletbar .portlet .portletbodyBottomLeft {
+    position: absolute;                                           
+    bottom: 0px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    background: url(../../resources/graphics/portlet_corner_bottomleft.png) bottom left no-repeat;
+}
+
+#portletbar .portlet .portletbodyBottomRight {
+    position: absolute;                                                
+    bottom: 0px;
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    background: url(../../resources/graphics/portlet_corner_bottomright.png) bottom right no-repeat;
+}
+
+#portletbar .portlet .portletbodyBottom {
+    position: absolute;                                                
+    bottom: 0px;
+    left: 5px;
+    height: 3px;
+    width: 95%;
+    background: url(../../resources/graphics/portlet_borderbottom.png) bottom left repeat-x;
+}*/
+
+/* Right-hand side portlet borders */
+/*
+#portletbar .portlet .portletbodyRightTop {
+    position: absolute;                                                
+    background: url(../../resources/graphics/portlet_borderright.png) top right repeat-y;
+    top: 0px;
+    right: 0px;
+    width: 5px;
+    height: 76px;
+}
+
+#portletbar .portlet .portletbodyRightBottom {
+    position: absolute;                                                
+    background: url(../../resources/graphics/portlet_borderright.png) top right repeat-y;
+    bottom: 0px;
+    right: 0px;
+    width: 5px;
+    height: 80px;
+}
+
+
+#portletbar .portlet .portletbodyRightMiddleTop {
+    position: absolute;                                                
+    background: url(../../resources/graphics/portlet_borderright.png) top right repeat-y;
+    top: 50%;
+    right: 0px;
+    width: 5px;
+    height: 36px;
+}
+
+#portletbar .portlet .portletbodyRightMiddleBottom {
+    position: absolute;                                                
+    background: url(../../resources/graphics/portlet_borderright.png) top right repeat-y;
+    bottom: 50%;
+    right: 0px;
+    width: 5px;
+    height: 63px;
+}
+
+#portletbar .portlet .portletbodyRightQuartTop {
+    position: absolute;                                                
+    background: url(../../resources/graphics/portlet_borderright.png) top right repeat-y;
+    top: 15%;
+    right: 0px;
+    width: 5px;
+    height: 60px;
+}
+
+#portletbar .portlet .portletbodyRightQuartBottom {
+    position: absolute;                                                
+    background: url(../../resources/graphics/portlet_borderright.png) top right repeat-y;
+    bottom: 25%;
+    right: 0px;
+    width: 5px;
+    height: 68px;
+}*/
+
+#portletbar .portlet a {
+    text-decoration: none;
+}
+
+#portletbar .portlet a:visited {
+    border-bottom: 1px solid purple;
+}
+
+#portletbar .portlet a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#portletbar .portlet h4:hover {
+    text-decoration: underline;
+}
+
+#portletbar .portlet h4
+{
+    padding-top: 0.35em;
+    padding-bottom: 0.7em;
+    padding-left: 30px;
+    background: url(../graphics/plus.gif) 10px 45% no-repeat;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: small;
+}
+
+#portletbar .portlet.expanded h4
+{
+    margin: 0;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #eee;
+    padding-top: 0.35em;
+    padding-bottom: 0.50em;
+    padding-left: 30px;
+    text-align: left;
+    background: url(../graphics/minus.gif) 10px 45% no-repeat;
+    color: #FFFFFF;
+    font-size: small;
+}
+
+#portletbar .portlet .portletbody {
+    display: none;
+}
+
+#portletbar .portlet.expanded .portletbody {
+    display: block;
+}
+
+#portletbar .portlet .portletbodyRightTop {
+    display: none;
+}
+
+#portletbar .portlet .portletbodyRightBottom {
+    display: none;
+}
+
+#portletbar .portlet .portletbodyRightMiddleTop {
+    display: none;
+}
+
+#portletbar .portlet .portletbodyRightMiddleBottom {
+    display: none;
+}
+
+#portletbar .portlet .portletbodyRightQuartTop {
+    display: none;
+}
+
+#portletbar .portlet .portletbodyRightQuartBottom {
+    display: none;
+}
+
+
+#portletbar .portlet.expanded .portletbodyRightTop {
+    display: block;
+}
+
+#portletbar .portlet.expanded .portletbodyRightBottom {
+    display: block;
+}
+
+
+#portletbar .portlet.expanded .portletbodyRightMiddleTop {
+    display: block;
+}
+
+#portletbar .portlet.expanded .portletbodyRightMiddleBottom {
+    display: block;
+}
+
+#portletbar .portlet.expanded .portletbodyRightQuartTop {
+    display: block;
+}
+
+#portletbar .portlet.expanded .portletbodyRightQuartBottom {
+    display: block;
+}
+
+
+#portletbar .portlet .actionlist
+{
+    list-style: none;
+    padding: 10px; margin: 0; border: 0;
+    font-size: small;
+}
+
+#portletbar .portlet .actionlist li.active {
+    font-weight: bold;
+}
+
+#portletbar .portlet .actionlist li {
+    display: block;
+    padding: 0 0 0 10px; 
+    margin: 0.5em 0.5em 0.15em 0; 
+    text-align:left;
+    background: transparent url(../graphics/leftbullet.png) center left no-repeat;
+}
+
+/* ------------------ c0.5ontent ------------------ */
+
+#content
+{
+    position: relative;
+    display: block;
+    top: 0;
+    z-index: 1;
+    width:auto;
+    padding: 0 2em 1em 17em;
+}
+
+#content.view.withviewlets {
+    padding-right: 21em;
+}
+
+.noportlets #content {
+    padding-left: 0;
+}
+
+#content h1
+{
+    display: none;
+}
+
+#content 
+{
+    line-height: 1.6em;
+}
+
+
+
+#content a
+{
+    color: #344a6a;
+    text-decoration: none;
+    border-bottom: 1px solid #344a6a;
+
+}
+
+#content a:visited:hover,
+#content a:hover
+{
+    color: #9d0a0a;
+    text-decoration: none;
+    border-bottom: 1px solid #9d0a0a;
+}
+
+#content a:visited 
+{
+    color: #6b0763;
+    text-decoration: none;
+    border-bottom: 1px solid #6b0763;
+}
+
+#content .descriptiveText 
+{
+    color: #666;
+}
+
+#content .descriptiveText.important {
+    padding-left: 25px;
+    color: black;
+    background: transparent  url(../../thirdparty/icon-theme/16x16/status/dialog-information.png) center left no-repeat;
+}
+
+
+
+/* --------------------- control panels -------------------- */
+.panel_menu dt
+{
+    border-bottom: 1px solid #eee;
+    font-weight: normal;
+}
+
+
+.panel_menu dd
+{
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+/* ----------------------- forms ---------------------------- */
+
+#content fieldset
+{
+    border: 1px solid #ccc;
+    padding: 1em;
+    background-color: white;
+}
+
+#content fieldset legend
+{
+    font-weight: normal;
+    padding: 0 1em;
+    color: black;
+}
+
+#content input,
+#content select,
+#content textarea {
+    border: 1px solid #888;
+}
+
+#content .form_actions input
+{
+    border: 1px solid #ccc;
+    background: #fdfdfd;
+    color: #333;
+    font-weight: normal;
+}
+
+.form_actions .form_cancel {
+    margin-left: 2em;
+}
+
+/* unframed (single button) forms */
+#content .noframe fieldset 
+{ 
+   border-width: 0px;
+   padding: 0;
+}
+
+#content .noframe .form_actions
+{ 
+   margin-top: 0; 
+}
+
+/* old cancel style */
+
+#content a.ktCancelLink {
+    border: 1px solid #888;
+    background: #eee;
+    color: black;
+    font-weight: normal;
+    font-size: 90%;
+    padding: 2px 0.65em 1px 0.65em;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+#content a.ktCancelLink:hover {
+    color: black;
+    text-decoration: none;
+    border: 1px solid #888;
+    cursor: default;
+}
+
+#content .field
+{
+    margin-bottom: 1.5em;
+}
+
+#content .field.error
+{
+    padding: 0.5em 1em;
+    border: 1px solid #ffc21e;
+    background: #ffdd80;
+}
+#content .field.error .errorMessage
+{
+    display: block;
+}
+
+#content .field.error label .required
+{
+    color: #ffdd80;
+}
+
+#content .field label 
+{
+    display: block;
+    font-weight: bold;
+}
+
+#content .field .descriptiveText
+{
+    margin: 0;
+    line-height: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+#content .field label .required
+{
+    margin-left: 0.5em;
+    padding-left: 10px;
+    color: white;
+    background: transparent url(../../resources/graphics/required.png) center left no-repeat;
+}
+
+.errorMessage 
+{
+    font-weight: bold;
+}
+
+#content .field .errorMessage
+{
+    display: none;
+}
+
+#content .form_actions {
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid #efefef;
+}
+
+#content .form_actions input.destructive
+{
+    border: 1px solid #ffc21e;
+    background: #ffdd80;
+}
+
+#content h2
+{
+    font-family: "Lucida Grande", "Bitstream Vera Sans", Tahoma, sans-serif;
+    padding-bottom: 0.25em;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #eee;
+    font-size: large;
+    color: #333;
+}
+
+#content .actionitem {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+#content .actionmessage 
+{
+    padding-bottom: 0.5em;
+    border-bottom: 1px dashed #ccc;
+    margin-left: 0;
+    padding-left: 2em;
+}
+
+/* ---------------------- detail view ---------------------------------- */
+
+/* metadata display */
+.metadata dt
+{
+    font-weight: bold;
+    /*this seems to force a huge space above the container in firefox*/
+    /*clear: left;*/
+}
+
+.metadata.versioned dd div {
+    
+    padding: 0.2em 0.5em;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px 1px 1px 0;
+}
+
+.metadata.versioned dd .previous {
+    width: 35%;
+    float: left;
+    display: block;
+    background: #eee;
+}
+.metadata.versioned dd .current {
+    width: 35%;
+    float: left;
+    display: block;
+    border-width: 1px;
+}
+.metadata.versioned dd .current.different {
+    background-color: #fff2b8;
+/*    
+    padding-left: 25px;
+    background: transparent  url(../../thirdparty/icon-theme/16x16/status/dialog-information.png) center left no-repeat;
+*/
+}
+
+.metadata.versioned dd .previous.different {
+    background-color: #e9dda8;
+/*    
+    padding-left: 25px;
+    background: transparent  url(../../thirdparty/icon-theme/16x16/status/dialog-information.png) center left no-repeat;
+*/
+}
+
+/*  --- table version --- */
+
+.metadatatable {
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: #ccc;
+    width: 100%;
+}
+
+.metadatatable.narrow {
+    width: auto !important;
+}
+
+.metadatatable .first th,
+.metadatatable .first td {
+    border-top: 1px solid #ccc;
+}
+
+.metadatatable th {
+    text-align: left;
+    width: 30% !important;
+    border-bottom: 1px dotted #ccc;
+    vertical-align: top;
+    padding: 0.5em;
+    background-color: #eee;
+    font-weight: normal;
+}
+
+.metadatatable td {
+    border-bottom: 1px dotted #ccc;
+    vertical-align: top;    
+    padding: 0.5em;    
+    font-weight: bold;
+}
+
+.metadatatable .versioned td {
+    width: 35%;
+}
+
+.metadatatable td.current.different {
+    background-color: #fff2b8;
+}
+
+.metadatatable td.previous.different {
+    background-color: #e9dda8;
+}
+
+.document_details .document_history thead th {
+    text-align: left;
+    border-bottom: 1px solid #666;
+}
+
+.document_history {
+    width: 100%;
+}
+
+.document_history th {
+    text-align: left;
+}
+
+.document_history td {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.document_history tbody .username,
+.document_history tbody .date
+{
+    white-space: nowrap;
+    padding-right: 1em;
+}
+
+.document_history tbody .action
+{
+    white-space: nowrap;
+    padding-right: 1em;
+    font-weight: bold;
+}
+
+.document_history tbody tr.odd td
+{
+    background-color: #fafafa;
+}
+
+.detail_fieldset
+{
+    display: block;
+    margin-top: 1em;
+    overflow: hidden;
+}
+
+.detail_fieldset h3
+{
+    margin: 0em 0 0.25em 0;
+}
+
+
+/* ----------------------- collection view ----------------------------- */
+
+.kt_collection
+{
+    width: 100%;
+    white-space: nowrap !important;
+    border: 1px solid #ccc;
+}
+
+.kt_collection.narrow {
+    width: auto;
+}
+
+.kt_collection thead th {
+    border-bottom: 1px solid #888;
+    text-align: left;
+    white-space: normal !important;
+}
+
+.kt_collection th.sort_on.sort_asc {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+    background: transparent url(../../resources/graphics/sort_asc.png) center right no-repeat;
+}
+
+.kt_collection th.sort_on.sort_desc {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+    background: transparent url(../../resources/graphics/sort_desc.png) center right no-repeat;
+}
+
+.kt_collection th,
+.kt_collection td {
+    padding: 0.25em 0.5em;
+    white-space: nowrap !important;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.kt_collection td.title,
+.kt_collection td.datecolumn
+{
+    white-space: normal !important;
+}
+
+
+.centered, .kt_collection thead th.centered { text-align: center; }
+.centered .ktAction { margin-left: auto; margin-right: auto; width: 100%;  background-position: top center;}
+
+.kt_collection td.sort_on {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+.kt_collection .folder_row.odd td {
+    background-color: #ededed;
+}
+
+.kt_collection .folder_row td {
+    background-color: #e5e5e5;
+}
+
+.kt_collection .folder_row td.sort_on {
+    background-color: #dbdbdb;
+}
+
+.kt_collection .folder_row.odd td.sort_on {
+    background-color: #e8e8e8;
+}
+
+
+.kt_collection .odd td {
+    background-color: #fafafa;
+}
+
+/* cheap and nasty hack for gmail-style highlighting. */
+.kt_collection tr.activated td.sort_on,
+.kt_collection tr.activated td {
+    background-color: #fff2b8;
+}
+
+.kt_collection .odd td.sort_on {
+    background-color: #f0f0f0;
+}
+
+.kt_collection tfoot td {
+    border-top: 1px solid #ccc;
+}
+
+.kt_collection .batchCurrent {
+    font-weight: bold;
+}
+
+.kt_collection .collectionNavigation {
+}
+
+.ktInlineError {
+    color: #db9d09;
+}
+
+/* block level. */
+.ktError {
+    padding: 0 1em;
+    border: 1px solid #ffc21e;
+    margin: 0.5em 0;
+    background: #ffdd80;
+}
+
+.ktError p {
+    padding-left: 25px;
+    background: transparent  url(../../thirdparty/icon-theme/16x16/status/dialog-warning.png) center left no-repeat;
+}
+
+/* block level. */
+.ktInfo {
+    padding: 0 1em;
+    border: 1px solid #c5c5c5;
+    margin: 0.5em 0;
+    background: #dedede;
+}
+
+.ktInfo p {
+    padding-left: 25px;
+    background: transparent  url(../../thirdparty/icon-theme/16x16/status/dialog-information.png) center left no-repeat;
+}
+
+
+.ktBlock { 
+    padding: 0 1em;
+    border: 1px solid #c5c5c5;
+    background-color: #fcfcfc;
+    margin: 0.5em 0;
+}
+
+
+.ktBlock, .ktInfo, .ktError { 
+    background-repeat: repeat-x;
+    background-position: top left;
+}
+
+.ktInfo { 
+    background-image: url(../../resources/graphics/dashlet-gradient-info.gif);
+}
+
+.ktError { 
+    background-image: url(../../resources/graphics/dashlet-gradient-error.gif);
+}
+
+#dashboard-container-left .ktBlock,
+#dashboard-container-left .ktInfo,
+#dashboard-container-left .ktError,
+#dashboard-container-right .ktBlock,
+#dashboard-container-right .ktInfo,
+#dashboard-container-right .ktError 
+{ 
+    -moz-border-radius: 15px; 
+}
+#dashboardBox {
+    width: 80%
+}
+
+/** portlet stuff. */
+#portlet-search-text {
+    border: 1px solid black;
+    background: white url(../../resources/graphics/search-button.png) center left no-repeat;
+    margin: 0.5em;
+    padding: 3px;
+    padding-left: 17px;
+    width: 11em;
+}
+
+#dashlet-search-text {
+    border: 1px solid black;
+    background: white url(../../resources/graphics/search-button.png) center left no-repeat;
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 3px;
+    padding-left: 17px;
+    width: 80%;
+}
+
+.searchbutton {
+    border: 1px solid black;
+    margin: 0.5em;
+}
+
+/* ========== kt actions 
+
+These are used to mark up various different "actions" (e.g. cut, copy, delete).
+Use them as follows:
+
+<a class="ktAction ktDelete">Delete</a>
+
+The text will be hidden for screen view.  The generic fahrner-ish approach comes from Plone
+
+ */
+
+
+.ktAction { 
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    border: 0 !important;
+    margin: 1px;
+    padding: 0;
+    padding-top: 16px;
+    height: 0px !important;
+    height /**/: 16px;
+    width: 16px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: transparent;    
+}
+
+.ktActionDescribed {
+    float: left;
+    margin-right: 0.5em;    
+}
+
+
+.ktActionLink {
+    padding-left: 25px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.ktAction.ktInline {
+    float: left; 
+    padding-right: 0.5em;
+    background-position: top left;
+}
+
+.ktHelp { 
+    background: transparent url(../../thirdparty/icon-theme/16x16/apps/help-browser.png) top left no-repeat;
+    float: right;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    border: 0 !important;
+    padding: 0;
+    padding-top: 16px;
+    height: 0px !important;
+    height /**/: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+
+/* FIXME when available icon-naming-conformant sets have better coverage, make these more accurate. */
+.ktActionLink.ktDelete, .ktAction.ktDelete { background-image: url(../../resources/graphics/delete.png); }
+.ktActionLink.ktEdit, .ktAction.ktEdit { background-image: url(../../thirdparty/icon-theme/16x16/actions/document-properties.png); }
+.ktActionLink.ktAddUser, .ktAction.ktAddUser { background-image: url(../../thirdparty/icon-theme/16x16/actions/contact-new.png); }
+.ktActionLink.ktAddGroup, .ktAction.ktAddGroup { background-image: url(../../thirdparty/icon-theme/16x16/actions/group-new.png); }
+.ktActionLink.ktAdd, .ktAction.ktAdd { background-image: url(../../thirdparty/icon-theme/16x16/actions/add.png); }
+.ktActionLink.ktDownload, .ktAction.ktDownload { background-image: url(../../resources/graphics/download.png); }
+.ktActionLink.ktBack, .ktAction.ktBack { background-image: url(../../thirdparty/icon-theme/16x16/actions/back.png); }
+.ktActionLink.ktAllowed, .ktAction.ktAllowed { background-image: url(../../resources/graphics/allowed.png); }
+.ktActionLink.ktDenied, .ktAction.ktDenied { background-image: url(../../resources/graphics/denied.png); }
+.ktActionLink.ktMoveUp, .ktAction.ktMoveUp { background-image: url(../../thirdparty/icon-theme/16x16/actions/move-up.png); }
+.ktActionLink.ktMoveDown, .ktAction.ktMoveDown { background-image: url(../../thirdparty/icon-theme/16x16/actions/move-down.png); }
+/*.ktActionLink.ktInfo, .ktAction.ktInfo { background-image: url(../graphics/info.png); }*/
+
+/* this is sometimes used separately to get the auto-delete help. */
+.ktDelete { }
+
+
+
+/* =========== standard listings. */
+
+
+
+.listing td {
+   padding: 0.5em;
+   vertical-align: top;
+}
+
+.listing thead th {
+   border-bottom: 1px solid #888;
+   text-align: left;
+   padding-right: 2em;
+}
+
+
+/* dashboard blocks. */
+
+#dashboard-container-left { 
+    clear: left;
+    width: 47%;
+    margin-top: 0;
+    margin-left: 0;
+    padding-right: 2em;
+    float: left;
+    padding-bottom: 2em;
+    height: 100%;
+    min-height: 5em;
+/*     background-color: #dfd; */
+}
+
+#dashboard-container-right {
+    width: 47%;
+    margin-top: 0;
+    margin-left: 0;
+    float: left;
+    padding-bottom: 2em;
+    height: 100%;
+    min-height: 5em;
+/*     background-color: #ddf; */
+}
+
+#dashboard_block_topleft {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+}
+
+#dashboard_block_toprepeat {
+    position: absolute;
+    width: 95%;
+    height: 3px;
+    top: 0px;
+    left: 30px;
+}
+
+#dashboard_block_topright {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+}
+
+#dashboard_block_leftrepeat {
+    position: absolute;
+    width: 3px;
+    height: 95%;
+    top: 30px;
+    left: 0px;
+}
+
+#dashboard_block_bottomleft {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#dashboard_block_bottomrepeat {
+    position: absolute;
+    width: 95%;
+    height: 3px;
+    bottom: 0px;
+    left: 30px;
+}
+
+#dashboard_block_bottomright {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#dashboard_block_rightrepeat {
+    position: absolute;
+    width: 3px;
+    height: 95%;
+    top: 30px;
+    right: 0px;
+}
+
+.dashboard_block {
+    width: 100%;
+/*     background-color: #fdd; */
+}
+
+#copyrightbarBorder {
+    position: relative;
+    height: 2.45em;
+    width: 97.65%;
+    padding: 0em 1em;
+    margin-top: 10px;
+    margin: 0.5em 0 0.5em 0;
+}
+
+#copyrightbarBg {
+    position: absolute;
+    background: url(../../resources/graphics/footer_bg.png) top left repeat-x;
+    height: 2.45em;
+    width: 99%;
+    right: 5px;
+    top: 0px;
+}
+
+#copyrightbarLeft{
+    position: absolute;
+    background: url(../../resources/graphics/footer_left.png) top left no-repeat;
+    width:8px;
+    height:2.45em;
+    top:0px;
+    left:3px;
+}
+
+#copyrightbarRight{
+    position: absolute;
+    background: url(../../resources/graphics/footer_right.png) top right no-repeat;
+    height:2.45em;
+    width:8px;
+    top:0px;
+    right:0px;
+}
+
+#copyrightbar {
+    position: absolute;
+    top:6px;
+    left:20px;
+    color: #000000;
+    font-size: small;
+    height: 2.45em;
+    width: 98%;
+    overflow: hidden;
+}
+
+hr {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #888;
+}
+
+
+#support-block {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #666;
+}
+
+/* -------------- extra info for the "views" column on doc ---------------------- */
+
+#document-views {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 19em;
+    z-index: 2;
+}
+
+#document-views .viewlet {
+    margin: 0 2em 1.5em 0;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 0 0 0.5em;
+}
+
+#document-views .viewlet h3 {
+    margin: 0;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #eee;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    text-align: left;
+    color: #333;
+    font-size: small;
+}
+
+#document-views .downloadbox {
+    padding: 0.5em;
+    border: 1px transparent;
+    margin-bottom: 1em;
+}
+
+#document-views .downloadbox ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#document-views .downloadbox ul li {
+    padding-left: 25px;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;    
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+
+#document-views .viewlet .actionlist
+{
+    list-style: none;
+    padding: 0; margin: 0; border: 0;
+    font-size: small;
+}
+
+#document-views .viewlet .actionlist li
+{
+    display: block;
+    padding: 0 0 0 10px; 
+    margin: 0.5em 0.5em 0.15em 0; 
+    text-align: left;
+    background: transparent url(../graphics/leftbullet.png) center left no-repeat;
+    border: 0;
+}
+
+#document-views .downloadbox ul li.view_details {
+    background-image: url(../graphics/info.png);
+}
+
+
+#document-views .downloadbox ul li.download {
+    background-image: url(../graphics/download.png);
+}
+
+#document-views .downloadbox ul li.checkout {
+    background-image: url(../graphics/checkout.png);
+}
+
+#document-views .downloadbox ul li.checkin {
+    background-image: url(../graphics/checkin.png);
+}
+
+#document-views .downloadbox ul li.cancel_checkout {
+    background-image: url(../graphics/cancel_checkout.png);
+}
+
+
+#document-views .downloadbox ul li.edit_metadata {
+    background-image: url(../graphics/edit_metadata.png);
+}
+
+#content ul {
+    list-style-image: url(../graphics/bullet.png);
+}
+
+
+/* -------------------------- general collapsable blocks ------------------------ */
+
+.collapsible
+{
+    margin: 0 0 1.5em 0;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 0 0 0 0;
+}
+
+.collapsible .collapsiblebody {
+    padding: 0 0 0.5em 0;
+}
+
+.collapsible.expanded
+{
+    margin: 0 0 1.5em 0;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;            
+    padding: 0 0 0.5em;
+}
+
+.collapsible h4:hover {
+    text-decoration: underline;
+}
+
+.collapsible h4
+{
+    margin: 0;
+    border-width: 0 0 1px 0;
+    border-style: none;
+    border-color: #eee;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 25px;
+    background: url(../graphics/plus.gif) 10px 50% no-repeat;
+    text-align: left;
+    color: #333;
+    font-size: small;
+}
+
+
+.collapsible.expanded h4
+{
+    margin: 0;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #eee;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 25px;
+    text-align: left;
+    background: url(../graphics/minus.gif) 10px 50% no-repeat;
+    color: #333;
+    font-size: small;
+}
+
+.collapsible .collapsiblebody {
+    display: none;
+}
+
+.collapsible.expanded .collapsiblebody {
+    display: block;
+}
+
+
+
+/* -------------------------- iframe browse ------------------------ */
+.browse-frame { 
+    width: 100%;
+    height: 55em;
+    border-width: 0px;
+    padding:0;
+    margin: 0;
+}
+
+.browse_body { 
+    padding: 0;
+}
+
+
+
+/* -------------------------- dashboard ------------------------ */
+
+.dashboard_block_icons
+{ 
+    float: right;
+    text-align: right;
+    margin: 0.75em 0em 0 0;
+    z-index: 100;
+}
+
+.dashboard_block_handle
+{ 
+    cursor: pointer;
+}
+
+.dashboard_block.rolled-up .dashboard_block_body
+{ 
+    display: none;
+}
+
+.dashboard_block .dashboard_block_body 
+{ 
+    z-index:99;
+}
+
+/* actions */
+
+#content .dashboard_block .action
+{ 
+    padding: 1em 0.5em;
+    border-bottom-width: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#content .dashboard_block .action:hover
+{ 
+    border-bottom-width: 0px;
+}
+
+#content .dashboard_block .action_rollup 
+{ 
+    background-image: url(../graphics/bullet_toggle_minus.png);
+}
+
+#content .dashboard_block.rolled-up .action_rollup 
+{ 
+    background-image: url(../graphics/bullet_toggle_plus.png);
+}
+
+#content .dashboard_block .action_close 
+{ 
+    background-image: url(../graphics/bullet_toggle_close.png);
+}
+
+/* action effects */
+#content .dashboard_block.rolled-up h2 
+{ 
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+}
+
+
+#content .dashboard_block.closed 
+{ 
+    display: none;
+}
+
+.addDialogScreen
+{ 
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+/*    background-color: white;
+    opacity: 0.5; */
+    text-align: center;
+    z-index: 1000;
+}
+
+.addDialog
+{ 
+    display: block;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 2em;
+    margin: 10% 30%;
+    opacity: 1;
+    overflow: hidden;
+    text-align: left;
+}
+
+
+.addDialog .dashletLink
+{ 
+    color: #666;
+    text-decoration: none;
+    display: block;
+}
+
+body #content #add_dashlet
+{ 
+    display: none;
+    text-decoration: none;
+    border-width: 0px;
+    
+}
+
+#add_dashlet
+{
+    border: 1px solid #ccc;
+    background: #fdfdfd;
+    color: #333;
+    font-weight: normal;
+    float: right;
+    margin-right: 3em;
+}

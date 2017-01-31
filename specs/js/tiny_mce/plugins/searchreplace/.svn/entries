@@ -1,0 +1,73 @@
+8
+
+dir
+10886
+file:///var/svn/specs/js/tiny_mce/plugins/searchreplace
+file:///var/svn/specs
+
+
+
+2008-11-20T01:40:38.821937Z
+8703
+root
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9c8e852e-eeee-49bd-92f0-d9f59afcdca8
+
+editor_plugin.js
+file
+
+
+
+
+2008-10-28T01:31:08.000000Z
+3154c3cb319e9dd9c5994ae7125ad4f2
+2008-10-28T01:30:39.414148Z
+8194
+root
+
+langs
+dir
+
+editor_plugin_src.js
+file
+
+
+
+
+2008-10-28T01:31:08.000000Z
+1246e382a76c59f1ea7f8e67ab8c3e4b
+2008-10-28T01:30:39.414148Z
+8194
+root
+
+css
+dir
+
+searchreplace.htm
+file
+
+
+
+
+2008-10-28T01:31:08.000000Z
+06c98f16bbfdf78fb09b09eb5985d080
+2008-10-28T01:30:39.414148Z
+8194
+root
+
+js
+dir
+

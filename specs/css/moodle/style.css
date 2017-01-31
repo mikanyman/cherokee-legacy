@@ -1,0 +1,30 @@
+body {
+	background-color: #CCCCCC;
+	font-family: verdana;
+	font-size: 14px;
+	font-color: #FFFFFF;
+}
+
+#nav1 {
+	margin: top;
+	background-color: #FFFFFF;
+	width: 160px;
+	height: 100%;
+	border: 1px solid #000000;
+}
+
+#header {
+        margin: top;
+        background-color: #FFFFFF;
+        width: 600px;
+        height: 80px;
+        border: 1px solid #000000;
+}
+
+#nav2 {
+        margin: top;
+        background-color: #FFFFFF;
+        width: 600px;
+        height: 20px;
+}
+

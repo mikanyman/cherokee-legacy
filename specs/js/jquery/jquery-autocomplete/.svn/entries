@@ -1,0 +1,106 @@
+8
+
+dir
+11828
+file:///var/svn/specs/media/js/jquery/jquery-autocomplete
+file:///var/svn/specs
+
+
+
+2010-01-02T20:22:14.122928Z
+11827
+root
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9c8e852e-eeee-49bd-92f0-d9f59afcdca8
+
+demo
+dir
+
+changelog.txt
+file
+
+
+
+
+2010-01-02T20:22:53.000000Z
+8ffe39936841994f5f7f9f1ff8e6b8d0
+2010-01-02T20:16:54.926674Z
+11824
+root
+
+todo
+file
+
+
+
+
+2010-01-02T20:22:53.000000Z
+0cd27b0aeab4e4630ea73996a1150f5a
+2010-01-02T20:16:54.926674Z
+11824
+root
+
+lib
+dir
+
+jquery.autocomplete.css
+file
+
+
+
+
+2010-01-02T20:22:53.000000Z
+719c9f56c4acd5081ae30fe127a965e4
+2010-01-02T20:16:54.926674Z
+11824
+root
+
+jquery.autocomplete.pack.js
+file
+
+
+
+
+2010-01-02T20:22:53.000000Z
+109ba9ac44430c7e5dfa2831e657ee6b
+2010-01-02T20:16:54.926674Z
+11824
+root
+
+jquery.autocomplete.js
+file
+
+
+
+
+2010-01-02T20:22:53.000000Z
+11e6e59dc34688d98c5c9124065c244b
+2010-01-02T20:16:54.926674Z
+11824
+root
+
+jquery.autocomplete.min.js
+file
+
+
+
+
+2010-01-02T20:22:53.000000Z
+a30f20db67dc554b7604ff2212fff1d5
+2010-01-02T20:16:54.926674Z
+11824
+root
+

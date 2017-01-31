@@ -1,0 +1,174 @@
+/* x_files styles */
+
+body {
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+
+	background-color: #fff;
+	background-image: url("http://s.wordpress.com/wp-content/themes/pub/rubric/images/rubric/gradient.gif");
+	background-attachment: fixed;
+	background-position: bottom;
+	background-repeat: repeat-x;
+	}
+
+textarea {
+	font-family: verdana;
+	font-size: 12px;
+	}
+
+#container {
+	text-align: left;
+	width: 950px;
+	margin: 0 auto;
+
+	border: solid 1px #999;
+	background-color: #fff;
+	padding: 4px
+	}
+
+#footer {
+        text-align: left;
+        width: 950px;
+        margin: 0 auto;
+
+	background-color: #efefef;
+	border-right: solid 1px #999;
+	border-bottom: solid 1px #999;
+	border-left: solid 1px #999;
+	padding: 4px;
+	height: 24px;
+	}
+
+#topbanner {
+    width: 934px;
+    font-family: verdana;
+    color: #fc0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    background-color: #356AA0;
+    height:30px;
+    padding: 8px;
+    margin-bottom: 8px;
+    }
+
+#topnavi {
+    background-color: #efefef;
+    width: 948px;
+    border: solid 1px #B0C4DE;
+    margin-bottom: 8px;
+    }
+
+#topnavi_edit {
+    padding: 6px;
+    text-align: left;
+    }
+
+.leftnavi {
+    width: 180px;
+    border: solid 1px #B0C4DE;
+    background-color: #efefef;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.content {
+    margin-bottom: 8px;
+    background-color: #fff;
+    width: 500px;
+    padding-top: 2px;
+}
+
+.rightnavi {
+
+    float: right;
+
+    margin-bottom: 8px;
+    width: 180px;
+    border: solid 1px #B0C4DE;
+    background-color: #efefef;
+}
+
+.box_top {
+    border: solid 1px #B0C4DE;
+    height: 24px;    
+    background-color: #B0C4DE;
+    margin: 2px;
+    }
+
+.box_content {
+    padding: 4px;
+    }
+
+h1 {
+    color: #356AA0;
+}
+
+a {
+    color: #356AA0;
+}
+
+img {
+    border: 0px;
+    }
+
+
+/* ---------- TABLE ---------- */
+
+table {
+    width: 500px;
+    border: 1px solid #B0C4DE;
+    }
+
+tr {
+    padding: 2px;
+    height: 24px;
+    }
+
+th {
+    background-color: #B0C4DE;
+    height: 24px;
+    text-align: left;
+    padding-left: 4px;
+    }
+
+td {
+    valign: top;
+    }
+
+table#tricol {
+    border: 0px;
+    width: 100%;
+    }
+
+hr {
+    border: 0px;
+    color: #B0C4DE;
+    background-color: #B0C4DE;
+    height: 1px;
+    }
+
+
+/* ---------- COMMENT ---------- */
+#comment_link {
+    padding: 0 0 0 0;
+    font-size: 75%;
+    }
+#comment_separator {
+    width: 100%;
+    height: 1px;
+    padding: 0 0 0 0;
+    background: #ccccff;
+    }
+#comment {
+    border: solid 1px #ccc;
+    padding: 1px 8px 2px 8px;
+    background: #efefef;
+    }
+.comment_count {
+    align: right;
+    font-style: italic;
+    color: #999;
+    }
+

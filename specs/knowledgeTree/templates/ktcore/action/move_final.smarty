@@ -1,0 +1,6 @@
+<h2>{i18n arg_docname=$context->oDocument->getName()}Checkin Document: #docname#{/i18n}</h2>
+
+<p class="descriptiveText">{i18n}Moving a document relocates the document
+within the DMS.{/i18n}</p>
+
+{$form->render()}

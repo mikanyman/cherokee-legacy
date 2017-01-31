@@ -1,0 +1,158 @@
+#main-body-1n {
+	float: left;
+   	width: 500px;
+   	}
+#content {
+	margin: 25px 0;
+	padding: 0 25px;
+	background: #F3F6CB;
+        color: #000000;
+	}
+
+
+#content a:link, a:active, a:visited {
+	color: #606060;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: none;
+	}
+#content a:hover {
+	color: #990000;
+	}
+
+
+#comment_link {
+        color: #990000;
+	padding: 0 0 0 0;
+	font-size: 75%;
+	}
+#comment_separator {
+	width: 100%;
+        height: 1px;
+        padding: 0 0 0 0;
+        background: #ccccff;
+	}
+#comment {
+	background: #efefff;
+	padding: 16px 16px 1px 16px;
+	}
+.comment_count {
+	align: right;
+	font-style: italic;
+	color: #999;
+	}
+h1 {
+	font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 160%;
+	font-weight: normal;
+        color: #538620;
+	padding: 0 0 6px 0;
+	margin: 0;
+	}
+.h1_oneline {
+	font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 160%;
+	font-weight: normal;
+        color: #538620;
+	padding: 0 0 6px 0;
+	margin: 0;
+	}
+h3 {
+	font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 140%;
+	font-weight: normal;
+        color: #538620;
+	padding: 0;
+	margin: 0;
+	}
+a.img_link:link {
+	border-bottom: 0px;
+	}
+a.img_link:visited {
+	border-bottom: 0px;
+	}
+
+/* ---[ right column ]----------------------------- */
+
+#sidebar {
+	#width: 219px;
+	width: 175px;
+	float: left;
+	margin: 0 0 25px 0;
+	padding: 0;
+	font-size: 90%;
+	line-height: 1.5em;
+	color: #888;
+	}
+#sidebar h3 {
+	margin: 30px 0 12px 0;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 120%;
+	border: none;
+	background: #93BB3A url(/img/koputuksia/sidebar-h3-bg.gif) repeat-x top left;
+	}
+#sidebar h3#quick {
+	margin-top: 24px;
+	}
+#sidebar h4 {
+	font-size: 92%;
+	font-weight: normal;
+	margin: 0;
+	}
+#sidebar p, #sidebar ul, #sidebar dl {
+	margin: 4px 10px 4px 10px;
+	padding: 0;
+	list-style: none;
+	}
+#sidebar li {
+	margin: 0 0 .5em 0;
+	padding: 0 0 0 12px;
+	line-height: 1.4em;
+	background: url(/img/koputuksia/green-bullet.gif) no-repeat 0 5px;
+	}
+#sidebar img {
+	vertical-align: middle;
+	}
+
+/* custom list styles */
+
+#sidebar #quickbits li {
+	padding-left: 16px;
+	background-image: url(/img/koputuksia/icon-star.gif);
+	background-position: 0 3px;
+	}
+#sidebar ul.articles li {
+	padding-left: 16px;
+	background-image: url(/img/koputuksia/perm-icon.gif);
+	background-position: 0 2px;
+	}
+#sidebar #slideshows li {
+	margin-bottom: 0;
+	padding: 0 0 7px 15px;
+	background: url(/img/koputuksia/slides.gif) no-repeat 0 3px;
+	}
+#sidebar ul.none li {
+	margin-bottom: 2px;
+	padding-left: 0;
+	background: none;
+	}
+#sidebar ul.sub li {
+	padding-left: 12px;
+	background: none;
+	}
+#sidebar ul.sub li.active a:link, #sidebar ul.sub li.active a:visited {
+	color: #244008;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: none;
+	}
+#sidebar ul.sub a:hover {
+	color: #244008;
+	}
+#sidebar ul.sub li.active {
+	background: url(/img/koputuksia/sub-on.gif) no-repeat 0 4px;
+	}
+#sidebar ul.sub a { 
+	color: #538620;
+	}

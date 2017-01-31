@@ -1,0 +1,24 @@
+/* CSS Document */
+
+body {
+    background-color: #FFFFFF;
+}
+
+table {
+	border: 0px;
+}
+
+td {
+	padding-bottom: 20px;
+	width: 200px;
+}
+
+/*
+        padding: 2px;
+        cellspacing="2"
+        bordercolor="#0000FF"
+        bordercolorlight="#33CCFF"
+        bordercolordark="#0000CC"
+        border="1">
+*/
+

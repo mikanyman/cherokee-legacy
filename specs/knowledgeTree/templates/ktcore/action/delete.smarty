@@ -1,0 +1,7 @@
+<h2>{i18n arg_docname=$context->oDocument->getName()}Delete Document: #docname#{/i18n}</h2>
+
+<p class="descriptiveText">{i18n}Deleting a document marks it as no longer
+being displayed.  The document management system does not remove the
+document entirely, and it can be restored at a later stage.{/i18n}</p>
+
+{$form->render()}

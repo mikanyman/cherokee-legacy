@@ -1,0 +1,3 @@
+This directory represents the structure of the former site b71.myrootshell.com
+and shloud in some stage be deleted & all material go under
+/var/cherokee/specs/img... etc. site_media does not have to be visible

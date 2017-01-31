@@ -1,0 +1,36 @@
+<h2>{i18n}Confirm Expunge{/i18n}</h2>
+
+<div class="ktInfo"><p><strong>{i18n}Note{/i18n}:</strong> {i18n}please
+confirm that you want to delete these documents.{/i18n}</p></div>
+
+{if (!empty($documents))}
+
+<form action="{$smarty.server.PHP_SELF}" method="POST">
+
+<input type="hidden" name="action" value="finish_expunge" />
+
+<table class="listing">
+  <thead>
+    <tr>
+
+      <th>{i18n}Document Name{/i18n}</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    {foreach item=oDoc from=$documents}
+    <tr>
+      <td>{$oDoc->getName()}<input type="hidden" name="selected_docs[]" value="{$oDoc->getId()}" /></td>
+    </tr>
+    {/foreach}
+  </tbody>
+</table>
+<div class="form_actions">
+   <input type="submit" value="{i18n}Confirm Expunge{/i18n}" />
+   <!-- <input type="submit" value="Restore" /> -->  <!-- how do we want to handle restore in this? major UI issue :( -->
+</div>
+</form>
+
+{else}
+<div class="ktInfo"><p>{i18n}No documents were selected.{/i18n}</p></div>
+{/if}

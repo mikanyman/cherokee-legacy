@@ -1,0 +1,73 @@
+8
+
+dir
+10886
+file:///var/svn/specs/js/tiny_mce/plugins/style
+file:///var/svn/specs
+
+
+
+2008-11-20T01:40:38.821937Z
+8703
+root
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9c8e852e-eeee-49bd-92f0-d9f59afcdca8
+
+editor_plugin.js
+file
+
+
+
+
+2008-10-28T01:31:08.000000Z
+a33cf070cce70e0aaa4dd395366d9911
+2008-10-28T01:30:39.414148Z
+8194
+root
+
+langs
+dir
+
+editor_plugin_src.js
+file
+
+
+
+
+2008-10-28T01:31:08.000000Z
+10ec7b919444e93153ff183260e64453
+2008-10-28T01:30:39.414148Z
+8194
+root
+
+css
+dir
+
+props.htm
+file
+
+
+
+
+2008-10-28T01:31:08.000000Z
+d4e3d92f757881513ad4200472b1e87c
+2008-10-28T01:30:39.414148Z
+8194
+root
+
+js
+dir
+

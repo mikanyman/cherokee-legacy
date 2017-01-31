@@ -1,0 +1,6 @@
+Updated versionings for 3.3 alpha series
+--This line, and those below, will be ignored--
+
+M    docs/VERSION-NAME.txt
+M    docs/VERSION.txt
+M    docs/VERSION-OSS.txt

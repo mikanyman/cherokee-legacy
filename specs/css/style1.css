@@ -1,0 +1,126 @@
+body {
+	background-color: #999999;
+	font-family: Arial;
+	color: #FFFFFF;
+}
+#container {
+	background-color: #666666;
+	height: 100%;
+	width: 980px;
+	margin-top: 30px;
+	margin: auto;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+#logo {
+	height: 100px;
+	width: 980px;
+	float: none;
+	background-repeat: no-repeat;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-left: 0px;
+}
+ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+#topnavi {
+	text-align: center;
+	width: 944px;
+	height: 25px;
+	padding-left: 36px;
+	background: #999999;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	margin: 0px 0px 0px 0px;
+	
+}
+#topnavi li {
+	float: left;
+	list-style: none;
+}
+#topnavi a {
+	float: left;
+	display: block;
+	width: auto;
+	height: 100%;
+	text-align: center;
+	font-size: 14px;
+	font-family: Verdana;
+	text-decoration: none;
+	color: #ffffff;
+	border-right: 1px solid #000000;
+	padding: 4px 16px 4px 16px;
+}
+#topnavi a#etusivuLink{ 
+	border-left: 1px solid #000000;
+}
+#topnavi a:hover {
+	background-color: #CCCCCC;
+	color: #993300;
+	border-right: 1px solid #000000;
+}
+#topnavi a:active {
+	background-color: #666666;
+	border-right: 1px solid #000000;
+}
+#top_navigation td {
+	text-align: left;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+#navigation a:active {
+	background-color: #666666;
+}
+#navigation a:hover {
+	background: #CCCCCC;
+	color: #993300;
+}
+#navigation a {
+	width: 150px;
+	border-bottom: 1px solid #FFFFFF;
+	font: 11px Verdana;
+	color: #FFFFFF;
+	line-height: 15px;
+	letter-spacing: normal;
+	text-decoration: none;
+	display: block;
+	padding: 8px 6px 10px 20px;
+}
+#content {
+	width: 595px;
+	height: 500px;
+	background-color: #666666;
+	float: left;
+	border: 1px solid #000000;
+	border-bottom: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	
+}
+#cright {
+	width: 980px;
+	height: 17px;
+	background-color: #999999;
+	border: 1px solid #000000;
+	border-right: 0px;
+	border-left: 0px;
+	clear: both;
+}
+#col_66	{
+	width: 205px;
+	height: 500px;
+	border: 1px solid #000000;
+	float: right;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	
+}
+td {
+	vertical-align: top;
+}
+
+

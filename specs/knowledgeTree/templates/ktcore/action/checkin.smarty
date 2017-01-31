@@ -1,0 +1,10 @@
+<h2>{i18n arg_docname=$context->oDocument->getName()}Checkin Document: #docname#{/i18n}</h2>
+
+<p class="descriptiveText">{i18n}Checking in a document updates the document
+and allows others to make changes to the document and its metadata.{/i18n}</p>
+
+<p class="descriptiveText">{i18n}If you do not
+intend to change the document, or you do not wish to prevent others from
+changing the document, you should rather use the action menu to <strong>cancel this checkout</strong>.{/i18n}</p>
+
+{$form->render()}

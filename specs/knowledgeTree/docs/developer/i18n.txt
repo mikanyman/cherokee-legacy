@@ -1,0 +1,10 @@
+KnowledgeTree Internationalisation (i18n)
+-----------------------------------------
+
+Generating the PO template file
+-------------------------------
+
+- install gettext command line utilities
+- use bin/genpo.sh
+
+$Id: i18n.txt 5297 2006-04-21 09:05:32Z nbm $

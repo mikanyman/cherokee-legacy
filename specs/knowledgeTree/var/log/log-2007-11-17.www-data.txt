@@ -1,0 +1,54 @@
+2007-11-17 00:37:52 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:37:52 (88.115.121.51) INFO: SiteMap::getPage: checking (login, )
+2007-11-17 00:37:52 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:38:10 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:38:11 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:39:12 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:39:12 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:42:51 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:42:52 (88.115.121.51) INFO: SiteMap::getPage: checking (dashboard, 1)
+2007-11-17 00:43:05 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 00:44:29 (88.115.121.51) INFO: Uploaded 8 byte file in 0.000 seconds
+2007-11-17 00:44:31 (88.115.121.51) INFO: SiteMap::getPage: checking (viewDocument, 1)
+2007-11-17 00:44:31 (88.115.121.51) INFO: control.php: about to redirect to /knowledgeTree/view.php?fDocumentId=2
+2007-11-17 00:44:45 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 00:46:35 (88.115.121.51) INFO: Uploaded 12 byte file in 0.000 seconds
+2007-11-17 00:46:37 (88.115.121.51) INFO: SiteMap::getPage: checking (viewDocument, 1)
+2007-11-17 00:46:37 (88.115.121.51) INFO: control.php: about to redirect to /knowledgeTree/view.php?fDocumentId=3
+2007-11-17 00:46:48 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 00:47:29 (88.115.121.51) INFO: SiteMap::getPage: checking (dashboard, 1)
+2007-11-17 00:47:36 (88.115.121.51) INFO: SiteMap::getPage: checking (logout, 1)
+2007-11-17 00:47:37 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:47:37 (88.115.121.51) INFO: SiteMap::getPage: checking (login, )
+2007-11-17 00:47:37 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:47:45 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 00:47:46 (88.115.121.51) INFO: SiteMap::getPage: checking (dashboard, 1)
+2007-11-17 00:47:53 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 00:49:08 (88.115.121.51) INFO: SiteMap::getPage: checking (dashboard, 1)
+2007-11-17 00:49:13 (88.115.121.51) INFO: SiteMap::getPage: checking (administration, 1)
+2007-11-17 00:49:41 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 00:50:29 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 00:50:29 (88.115.121.51) INFO: control.php: about to redirect to /knowledgeTree/browse.php?fFolderId=3
+2007-11-17 00:51:15 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 00:51:29 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 00:52:57 (88.115.121.51) INFO: SiteMap::getPage: checking (dashboard, 1)
+2007-11-17 00:53:19 (88.115.121.51) INFO: SiteMap::getPage: checking (dashboard, 1)
+2007-11-17 00:54:14 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 00:54:45 (88.115.121.51) INFO: SiteMap::getPage: checking (dashboard, 1)
+2007-11-17 00:57:36 (88.115.121.51) INFO: SiteMap::getPage: checking (administration, 1)
+2007-11-17 00:57:40 (88.115.121.51) INFO: SiteMap::getPage: checking (dashboard, 1)
+2007-11-17 00:58:24 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 01:30:49 (88.115.121.51) INFO: SiteMap::getPage: checking (login, )
+2007-11-17 01:30:49 (88.115.121.51) INFO: control.php: about to redirect to /knowledgeTree/login.php?errorMessage=Session timed out&redirect=http%3A%2F%2Fb71.myrootshell.com%2FknowledgeTree%2Fbrowse.php%3Faction%3DselectField
+2007-11-17 01:30:49 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 01:30:58 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 01:30:59 (88.115.121.51) INFO: SiteMap::getPage: checking (login, )
+2007-11-17 01:30:59 (88.115.121.51) INFO: control.php: about to redirect to /knowledgeTree/login.php?errorMessage=You need to login to access this page&redirect=http%3A%2F%2Fb71.myrootshell.com%2FknowledgeTree%2Faction.php%3Fkt_path_info%3Dktcore.actions.folder.roles%26fFolderId%3D1
+2007-11-17 01:30:59 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 01:31:11 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 01:31:12 (88.115.121.51) INFO: SiteMap::getPage: checking (login, )
+2007-11-17 01:31:12 (88.115.121.51) INFO: control.php: about to redirect to /knowledgeTree/login.php?errorMessage=You need to login to access this page&redirect=http%3A%2F%2Fb71.myrootshell.com%2FknowledgeTree%2Fbrowse.php%3FfFolderId%3D1%26page_size%3D50
+2007-11-17 01:31:12 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 01:31:33 (88.115.121.51) INFO: Session::verify sessionID=be9bfb66158b6aa6540adecdb64e36e6, not in db
+2007-11-17 01:41:44 (88.115.121.51) INFO: SiteMap::getPage: checking (browse, 1)
+2007-11-17 01:41:44 (88.115.121.51) INFO: control.php: about to redirect to /knowledgeTree/browse.php?fFolderId=1
